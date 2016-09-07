@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilaoPrj", "Caelum.Leilao\LeilaoPrj.csproj", "{698BC183-31DE-4100-BB66-BE9DB06F292F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilaoTests", "TesteDeLeilao\LeilaoTests.csproj", "{2617A08C-65C2-406F-B764-5625AADAD080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromoTests", "PalindromoTests\PalindromoTests.csproj", "{B4D656B6-D868-44F5-A3E7-C4934A88B79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromoPrj", "Palindromo\PalindromoPrj.csproj", "{20FA158D-532D-4ED3-9873-D1A5E08490E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leilao", "Leilao", "{DB169278-DF0D-4561-A807-BA4105FEEA38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Palindromo", "Palindromo", "{A78675A9-96A3-4060-8FAF-85750F3A502E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conta", "Conta", "{ABDEECDD-3F71-4BC7-8C30-94305FBE5E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaMaluca", "ContaMaluca\ContaMaluca.csproj", "{B2B44544-D26B-43ED-AA5D-D9034DB651E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaMalucaTests", "ContaMalucaTests\ContaMalucaTests.csproj", "{9E8BD035-EB81-4AC0-89A8-CC13D6B45A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2617A08C-65C2-406F-B764-5625AADAD080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2617A08C-65C2-406F-B764-5625AADAD080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2617A08C-65C2-406F-B764-5625AADAD080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2617A08C-65C2-406F-B764-5625AADAD080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D656B6-D868-44F5-A3E7-C4934A88B79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D656B6-D868-44F5-A3E7-C4934A88B79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D656B6-D868-44F5-A3E7-C4934A88B79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D656B6-D868-44F5-A3E7-C4934A88B79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FA158D-532D-4ED3-9873-D1A5E08490E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FA158D-532D-4ED3-9873-D1A5E08490E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FA158D-532D-4ED3-9873-D1A5E08490E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FA158D-532D-4ED3-9873-D1A5E08490E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B44544-D26B-43ED-AA5D-D9034DB651E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B44544-D26B-43ED-AA5D-D9034DB651E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B44544-D26B-43ED-AA5D-D9034DB651E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B44544-D26B-43ED-AA5D-D9034DB651E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8BD035-EB81-4AC0-89A8-CC13D6B45A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8BD035-EB81-4AC0-89A8-CC13D6B45A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8BD035-EB81-4AC0-89A8-CC13D6B45A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8BD035-EB81-4AC0-89A8-CC13D6B45A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{698BC183-31DE-4100-BB66-BE9DB06F292F} = {DB169278-DF0D-4561-A807-BA4105FEEA38}
+		{2617A08C-65C2-406F-B764-5625AADAD080} = {DB169278-DF0D-4561-A807-BA4105FEEA38}
+		{B4D656B6-D868-44F5-A3E7-C4934A88B79B} = {A78675A9-96A3-4060-8FAF-85750F3A502E}
+		{20FA158D-532D-4ED3-9873-D1A5E08490E4} = {A78675A9-96A3-4060-8FAF-85750F3A502E}
+		{B2B44544-D26B-43ED-AA5D-D9034DB651E5} = {ABDEECDD-3F71-4BC7-8C30-94305FBE5E09}
+		{9E8BD035-EB81-4AC0-89A8-CC13D6B45A22} = {ABDEECDD-3F71-4BC7-8C30-94305FBE5E09}
+	EndGlobalSection
+EndGlobal
