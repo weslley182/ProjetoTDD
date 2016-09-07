@@ -19,6 +19,9 @@ namespace LeilaoPrj
         /// <param name="leilao"></param>
         public void Avalia(Leilao leilao)
         {
+            if (leilao.Lances.Count == 0)
+                throw new Exception("Não é possível avaliar um leilão sem lances");
+
             double total = 0;
             foreach(var lance in leilao.Lances)
             {

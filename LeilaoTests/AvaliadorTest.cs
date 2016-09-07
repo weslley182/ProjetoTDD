@@ -128,5 +128,14 @@ namespace LeilaoTests
             Assert.AreEqual(100, maiores[1].Valor, 0.00001);            
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void NaoDeveAvaliarLeiloesSemNenhumLanceDado()
+        {
+            Leilao leilao = new Leilao("Playstation 3 Novo");
+            Avaliador leiloeiro = new Avaliador();
+            leiloeiro.Avalia(leilao);            
+        }
+
     }
 }

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2617A08C-65C2-406F-B764-5625AADAD080}</ProjectGuid>
+    <ProjectGuid>{B56E5BE1-DDA2-41CF-8397-6F12DBC791CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TesteDeLeilao</RootNamespace>
-    <AssemblyName>TesteDeLeilao</AssemblyName>
+    <RootNamespace>AnoBisextoTests</RootNamespace>
+    <AssemblyName>AnoBisextoTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -45,22 +45,18 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
-          <Private>False</Private>
-        </Reference>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AvaliadorTest.cs" />
+    <Compile Include="CalcularAnoBisextoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FiltroDeLancesTest.cs" />
-    <Compile Include="LeilaoTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Caelum.Leilao\LeilaoPrj.csproj">
-      <Project>{698bc183-31de-4100-bb66-be9db06f292f}</Project>
-      <Name>LeilaoPrj</Name>
+    <ProjectReference Include="..\AnoBisextoPrj\AnoBisextoPrj.csproj">
+      <Project>{6ad40cfe-c863-4e5e-8a8d-123d11a7fc22}</Project>
+      <Name>AnoBisextoPrj</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

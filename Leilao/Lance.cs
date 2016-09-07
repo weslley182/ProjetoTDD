@@ -1,3 +1,5 @@
+using System;
+
 namespace LeilaoPrj
 {
 
@@ -9,6 +11,9 @@ namespace LeilaoPrj
 
         public Lance(Usuario usuario, double valor)
         {
+            if (valor <= 0)
+                throw new ArgumentException();
+
             this.Usuario = usuario;
             this.Valor = valor;
         }
